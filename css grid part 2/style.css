@@ -1,0 +1,17 @@
+.container
+{
+    width: 1025px;
+    
+    border: 2px solid black;
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    gap: 30px;
+    grid-template-rows: 100px 100px 100px;
+}
+.container>div
+{
+    width: 105px;
+    border: 2px solid black;
+    text-align: center;
+    background-color: tomato;
+}
