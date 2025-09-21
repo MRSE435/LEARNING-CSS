@@ -1,0 +1,52 @@
+.card1 {
+  width: 271px;
+  height: 176px;
+  border: 2px solid rgb(171, 12, 12);
+  background-color: #f8f9fa;
+
+  /* important — makes this the positioning context */
+  position: relative;
+ ;
+}
+.card1 > p {
+  position: relative;
+  left: 110px;
+  top: 3px;
+}
+.download {
+  border: 2px solid black;
+  width: 131px;
+  height: 30px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(116, 210, 154);
+  position: relative;
+  left: 68px;
+  top: 20px;
+  margin-bottom: 30px;
+}
+.download > a {
+  text-decoration: none;
+}
+.download:hover {
+  transform: scale(1.5);
+  background-color: aqua;
+}
+.imp
+{
+    width: 80%;
+}
+.p2 {
+  font-family: monospace;
+  font-size: x-small;
+
+  /* Add a width to constrain the text */
+  
+  /* Set overflow to hidden to hide any text that exceeds the width */
+  word-break: break-all;
+  position: relative;
+  left: 30px;
+  
+}
