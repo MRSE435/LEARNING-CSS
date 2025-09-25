@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Box Hover Animation</title>
+<style>
+.container {
+    height: 600px;
+    width: 1000px;
+    background-color: tomato;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box
+{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    animation-name: ani;
+    animation-duration: 10s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    /* animation-fill-mode: forwards;
+     */
+
+}
+@keyframes ani {
+    from
+    {
+        transform:translateX(0px);
+        background-color: blue;
+    }
+    to
+    {
+           transform:translateX(600px);
+           background-color: black;
+    }
+}
+
+</style>
+</head>
+<body>
+<div class="container">
+    <div class="box"></div>
+</div>
+</body>
+</html>
